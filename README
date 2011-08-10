@@ -1,0 +1,39 @@
+いろんなバージョンのscalaコンソールを試す
+  
+
+  $ ./sbt
+  [info] Set current project to default (in build file:/home/k-ueno/.sbt/plugins/)
+  [info] Set current project to default (in build file:/home/k-ueno/project/scalaConsole/)
+  
+  >  ++ 2.9.0 console-quick
+  Setting version to 2.9.0
+  Getting Scala 2.9.0 ...
+  :: retrieving :: org.scala-tools.sbt#boot-scala
+          confs: [default]
+          4 artifacts copied, 0 already retrieved (20442kB/45ms)
+  [info] Set current project to default (in build file:/home/k-ueno/project/scalaConsole/)
+  [info] Updating...
+  [info] Done updating.
+  [info] Starting scala interpreter...
+  [info]
+  Welcome to Scala version 2.9.0.final (Java HotSpot(TM) 64-Bit Server VM, Java 1.6.0_24).
+  Type in expressions to have them evaluated.
+  Type :help for more information.
+  
+  scala> exit
+  warning: there were 1 deprecation warnings; re-run with -deprecation for details
+  
+  [success] Total time: 11 s, completed 2011/08/10 15:17:11
+  > ++ 2.8.1 console-quick
+  Setting version to 2.8.1
+  [info] Set current project to default (in build file:/home/k-ueno/project/scalaConsole/)
+  [info] Updating...
+  [info] Done updating.
+  [info] Starting scala interpreter...
+  [info]
+  Welcome to Scala version 2.8.1.final (Java HotSpot(TM) 64-Bit Server VM, Java 1.6.0_24).
+  Type in expressions to have them evaluated.
+  Type :help for more information.
+  
+  scala> 
+
